@@ -1,0 +1,2 @@
+2020-01-28T19:52:12+00:00 ERR (3): Deprecated functionality: The each() function is deprecated. This message will be suppressed on further calls  in D:\wamp64\www\magento1-9\lib\Zend\Cache\Backend.php on line 79
+2020-01-28T20:17:59+00:00 ERR (3): Deprecated functionality: The each() function is deprecated. This message will be suppressed on further calls  in D:\wamp64\www\magento1-9\lib\Zend\Cache\Backend.php on line 79

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SR_Reviews>
+            <version>0.1.1</version>
+        </SR_Reviews>
+    </modules>
+
+    <frontend>
+        <routers>
+            <SR_Reviews_front>
+                <use>standard</use>
+                <args>
+                    <module>SR_Reviews</module>
+                    <frontName>reviews</frontName>
+                </args>
+            </SR_Reviews_front>
+        </routers>
+    </frontend>  
+
+  <global>
+    <blocks>
+      <reviews>
+        <class>SR_Reviews_Block</class>
+      </reviews>
+    </blocks>
+    <models>
+      <reviews>
+        <class>SR_Reviews_Model</class>
+        <resourceModel>reviews_mysql4</resourceModel>
+      </reviews>
+      <reviews_mysql4>
+        <class>SR_Reviews_Model_Mysql4</class>
+        <entities>
+           <reviews>
+             <table>reviews</table>
+           </reviews>
+        </entities>
+      </reviews_mysql4>
+    </models>
+  </global>  
+  </config>

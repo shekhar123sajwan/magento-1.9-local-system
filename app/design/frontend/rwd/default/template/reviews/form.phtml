@@ -1,0 +1,25 @@
+<form class="" method="POST" action="/reviews/form/save">
+<ul class="form-list">
+            <li class="fields">
+                <div class="field">
+                    <label for="name" class="required"><em>*</em>Name</label>
+                    <div class="input-box">
+                        <input name="name" id="name" title="Name" value="" class="input-text required-entry" type="text">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="email" class="required"><em>*</em>Email</label>
+                    <div class="input-box">
+                        <input name="email" id="email" title="Email" value="" class="input-text required-entry validate-email" type="email" autocapitalize="off" autocorrect="off" spellcheck="false">
+                    </div>
+                </div>
+            </li>
+            <li class="wide">
+                <label for="comment" class="required"><em>*</em>Comment</label>
+                <div class="input-box">
+                    <textarea name="reviews" id="comment" title="Comment" class="required-entry input-text" cols="5" rows="3"></textarea>
+                </div>
+            </li>
+        </ul>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>

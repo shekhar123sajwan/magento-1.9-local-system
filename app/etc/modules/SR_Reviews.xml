@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+ 
+<config>
+    <modules>
+        <SR_Reviews>
+            <active>true</active>
+            <codePool>local</codePool>
+        </SR_Reviews>
+    </modules>
+</config>
